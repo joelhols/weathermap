@@ -1,0 +1,56 @@
+.displaycontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.displayWeatherwrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  max-width: 90%;
+  font-size: 1.2rem;
+}
+
+.forecast {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.daysafter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  max-width: 90%;
+  font-size: 1rem;
+}
+
+.daysafter img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.leaflet-container {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 50px;
+}
